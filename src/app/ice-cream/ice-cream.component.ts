@@ -67,6 +67,7 @@ function Emoji() {
   };
 }
 
+
 // Method
 function Confirmable(message: string) {
   return function (target: Object, key: string | symbol, descriptor: PropertyDescriptor) {
@@ -86,6 +87,25 @@ function Confirmable(message: string) {
     return descriptor;
   };
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Accessor
