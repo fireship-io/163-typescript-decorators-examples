@@ -1,10 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectorRef } from '@angular/core';
+
+import 'reflect-metadata';
+
+// <app-hooks></app-hooks>
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: `
+     <app-ice-cream></app-ice-cream>
+  `,
 })
 export class AppComponent {
-  title = 'nghooks';
+
 }
+
+
+
+
+
